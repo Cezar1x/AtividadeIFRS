@@ -2,7 +2,7 @@
 
 var hepatite = promp(`Usuário teve hepatite após os 10 anos?`);
 
-if (hepatite == `sim`) {
+if (hepatite == `não` || hepatite == `nao`) {
     var documentoFoto = prompt(`A pessoa trouxe documento com foto?`);
     if (documentoFoto === `sim`) {
         var jejum = prompt(`Digite se a pessoa fez ou não jejum:`);
